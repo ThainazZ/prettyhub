@@ -1,0 +1,276 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    height:auto;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(108.72% 81.32% at 45.38% 38.92%, #E0D2F6 0%, #C58FF0 100%);
+
+}
+
+p {
+    margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1840px) {
+
+    .navbar {
+        width: 100%;
+        padding: 1% 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 60px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 44px;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: 200;
+    }
+
+    .profile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+        padding: 0% 0% 2.5% 0%;
+
+    }
+
+    .modelName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fullName {
+        font-weight: 600;
+        margin: 0px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+
+    .description {
+        font-weight: 200;
+        letter-spacing: 20px;
+        margin: 0px;
+        font-size: 25px;
+    }
+
+    .details {
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        padding: 0% 2% 2% 2%;
+        border-bottom: 1px solid rgba(35, 35, 35, 0.18);
+    }
+
+    .item {
+        margin: 0%;
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    .modelHair {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelEyes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelHeight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelShoe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .content {
+        display: flex;
+        width: 800px;
+        height: 1653px;
+        padding: 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #CDA2F2;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+    .content h4 {
+        font-weight: 200;
+        font-size: 28px;
+        margin: 0%;
+    }
+
+    .video {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+@media (max-width: 870px) {
+
+    .navbar {
+        width: 100%;
+        padding: 2% 8%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    img {
+        width: 60px;
+    }
+
+    .menu {
+        display: flex;
+        gap: 44px;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: 200;
+    }
+
+    .container {
+        display: grid;
+    }
+
+    .profile {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 5% 0% 0% 0%;
+
+    }
+
+    .modelName {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5%;
+    }
+
+    .fullName {
+        font-weight: 600;
+        margin: 0px;
+        font-size: 14px;
+    }
+
+    .description {
+        font-weight: 200;
+        letter-spacing: 20px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    .details {
+        padding: 5%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        row-gap: 10px;
+        border-bottom: 1px solid rgba(35, 35, 35, 0.18);
+    }
+
+
+    .item {
+        font-weight: 200;
+        font-size: 18px;
+    }
+
+    .modelHair {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelEyes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelHeight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .modelShoe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .content {
+        display: flex;
+        width: 90%;
+        height: 1653px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 10px;
+        background: #CDA2F2;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .content h4 {
+        font-weight: 200;
+        font-size: 28px;
+
+    }
+
+
+}
