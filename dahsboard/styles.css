@@ -37,6 +37,13 @@ header {
         justify-content: space-between;
     }
 
+    img {
+        width: 60px;
+    }
+    
+    .profile img {
+        width: 90px;
+    }
 
     .profile img:hover {
         scale: 1.1;
