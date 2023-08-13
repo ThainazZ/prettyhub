@@ -28,7 +28,7 @@ header {
     align-items: center;
 }
 
-@media (max-width: 1840px) {
+@media (min-width: 769px) {
 
     .navbar {
         width: 100%;
@@ -88,6 +88,7 @@ header {
         letter-spacing: 20px;
         margin: 0px;
         font-size: 25px;
+        margin-left: 18px;
     }
 
     .details {
@@ -130,14 +131,16 @@ header {
 
     section {
         display: flex;
+        flex-direction: column;
+        align-items: center;
         justify-content: center;
         margin: 5%;
     }
 
     .content {
         display: flex;
-        width: 800px;
-        height: 1653px;
+        width: 80vw;
+        /* height: 1653px; */
         padding: 5%;
         flex-direction: column;
         align-items: flex-start;
@@ -146,22 +149,19 @@ header {
         border-radius: 10px;
         background: #CDA2F2;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+        margin-top: 20px;
     }
     .content h4 {
         font-weight: 200;
         font-size: 28px;
         margin: 0%;
     }
-
-    .video {
-        display: flex;
-        flex-direction: column;
-    }
-
+    
 
 }
 
-@media (max-width: 870px) {
+@media (max-width: 768px) {
 
     .navbar {
         width: 100%;
@@ -192,6 +192,7 @@ header {
     .profile {
         width: 100%;
         display: flex;
+        justify-content: center;
         align-items: center;
         padding: 5% 0% 0% 0%;
 
@@ -202,20 +203,26 @@ header {
         flex-direction: column;
         align-items: center;
         padding: 5%;
+        
     }
+
+   
 
     .fullName {
         font-weight: 600;
         margin: 0px;
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .description {
         font-weight: 200;
         letter-spacing: 20px;
         margin: 0px;
-        font-size: 16px;
+        font-size: 14px;
+        margin-left: 18px;
     }
+
+
 
     .details {
         padding: 5%;
@@ -259,6 +266,7 @@ header {
 
     section {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         margin: 5%;
     }
@@ -266,12 +274,15 @@ header {
     .content {
         display: flex;
         width: 90%;
-        height: 1653px;
+        /* height: 1653px; */
+        min-height: 200px;
         flex-direction: column;
         align-items: flex-start;
         border-radius: 10px;
         background: #CDA2F2;
         box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        margin-top: 20px;
+        padding: 2rem;
     }
 
     .content h4 {
@@ -281,4 +292,10 @@ header {
     }
 
 
+}
+
+/*css para ambas telas*/
+
+.content-video{
+    background-color: #9942e4;
 }
